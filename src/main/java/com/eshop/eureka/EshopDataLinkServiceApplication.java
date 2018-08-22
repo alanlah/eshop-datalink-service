@@ -25,9 +25,7 @@ public class EshopDataLinkServiceApplication {
 		config.setMaxIdle(5);
 		config.setMaxWaitMillis(1000 * 10); 
 		config.setTestOnBorrow(true);
-//		return new JedisPool(config, "192.168.3.103", 6379);
-		return new JedisPool(config, "192.168.3.205", 1111);
+		return new JedisPool(config, "192.168.3.208", 1111);
 	}
 	
 }
-

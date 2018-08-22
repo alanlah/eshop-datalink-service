@@ -13,6 +13,7 @@ import redis.clients.jedis.JedisPool;
 
 @RestController
 public class DataLinkController {
+
 	@Autowired
 	private EshopProductService eshopProductService;
 	@Autowired
@@ -53,4 +54,3 @@ public class DataLinkController {
 	}
 	
 }
-
